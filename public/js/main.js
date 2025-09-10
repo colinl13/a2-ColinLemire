@@ -35,7 +35,9 @@ const submit = async function( event ) {
       // Clear the form
       taskInput.value = ""
       priorityInput.value = ""
-      dateInput.value = ""
+      // Assumes that the user will want to use the same date for the next task;
+      // After testing, I felt that this made more sense than completely clearing this field
+      dateInput.value = dateInput.value
       
       console.log( "Todo added successfully!" )
     } else {
