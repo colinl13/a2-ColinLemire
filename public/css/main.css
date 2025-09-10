@@ -1,18 +1,19 @@
 body {
-  background-color:blanchedalmond;
+  background-color:#6be3a2;
 }
 
 .form-section{
-  background-color:green;
-  width:70%;
+  background-color:#e36bbd;
+  /* width:70%; */
   border: 2px solid black;
   padding: 20px;
   align-content: left;
+
 }
 
 .results-section{
-  background-color: purple;
-  width:70%;
+  background-color: #e36bbd;
+  /* width:70%; */
   border: 2px solid black;
 }
 
@@ -42,12 +43,12 @@ td, th {
   padding: 8px;
 }
 
-.listhead {
+/* .listhead {
   background-color: grey;
-}
+} */
 
 tr:nth-child(even) {
-  background-color: grey;
+  background-color: #8e7572;
 }
 
 tr:nth-child(odd) {
@@ -57,3 +58,25 @@ tr:nth-child(odd) {
 .todo-table {
   padding: 5px;
 }
+
+.grid-container {
+      display: grid;
+      grid-template-columns: 1fr 1fr; /* Three equal columns */
+      grid-gap: 10px; /* Space between grid items */
+    }
+
+.grid-item {
+      background-color: #6be0e3;
+      padding: 20px;
+      text-align: center;
+    }
+
+.form-group {
+  text-align:left;
+  background-color:#8e7572;
+  padding:5px;
+  margin:5px;
+  border:black 1px solid;
+  /* align-content:left; */
+}
+
