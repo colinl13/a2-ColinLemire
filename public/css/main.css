@@ -1,4 +1,59 @@
 body {
-  background:black;
-  color:white;
+  background-color:blanchedalmond;
+}
+
+.form-section{
+  background-color:green;
+  width:70%;
+  border: 2px solid black;
+  padding: 20px;
+  align-content: left;
+}
+
+.results-section{
+  background-color: purple;
+  width:70%;
+  border: 2px solid black;
+}
+
+h1{
+  text-align: center;
+  background-color: whitesmoke;
+  border: 2px solid black;
+  width:50%;
+  margin:auto;
+}
+
+h2{
+  text-align: left;
+  margin:20px;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 70%;
+  padding: 10px;
+}
+
+td, th {
+  border: 1px solid black;
+  text-align: left;
+  padding: 8px;
+}
+
+.listhead {
+  background-color: grey;
+}
+
+tr:nth-child(even) {
+  background-color: grey;
+}
+
+tr:nth-child(odd) {
+  background-color: whitesmoke;
+}
+
+.todo-table {
+  padding: 5px;
 }
