@@ -39,9 +39,9 @@ const submit = async function( event ) {
       // After testing, I felt that this made more sense than completely clearing this field
       dateInput.value = dateInput.value
       
-      console.log( "Todo added successfully!" )
+      console.log( "To-do added successfully!" )
     } else {
-      console.error("Error adding todo")
+      console.error("Error adding to-do")
     }
   } catch (error) {
     console.error("Error:", error)
